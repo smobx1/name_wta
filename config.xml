@@ -21,6 +21,12 @@
 
     <!-- end plugin -->
 
+    <!-- test status bar -->
+    <plugin name="com.phonegap.plugin.statusbar" spec="1.1.0" source="pgb" />
+    <preference name="StatusBarOverlaysWebView" value="false"/>
+    <preference name="StatusBarBackgroundColor" value="#000000"/>
+    <preference name="StatusBarStyle" value="lightcontent" />
+
 
 
     <name>Tennis Quiz WTA</name>
