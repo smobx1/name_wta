@@ -4,12 +4,12 @@ var admobid = {};
 if( /(android)/i.test(navigator.userAgent) ) {
   admobid = { // for Android
     banner: 'ca-app-pub-2785420618056516/6714331180',
-    interstitial: 'ca-app-pub-2785420618056516/8330665189'
+    interstitial: 'ca-app-pub-7997363558393499/4015015963'
   };
 } else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {
   admobid = { // for iOS
     banner: 'ca-app-pub-2785420618056516/8191064387',
-    interstitial: 'ca-app-pub-2785420618056516/2284131584'
+    interstitial: 'ca-app-pub-7997363558393499/6968482362'
   };
 } else {
   admobid = { // for Windows Phone
